@@ -8,9 +8,10 @@ export default defineNuxtConfig({
     'nuxt-csurf',
   ],
 
-  css: [
-    '@/assets/css/fonts.css',
-  ],
+  // Uncomment when you add font files in .woff2 format
+  // css: [
+  //   '@/assets/css/fonts.css',
+  // ],
 
   // CSRF Protection Configuration
   csurf: {
