@@ -9,7 +9,7 @@ export default defineNuxtConfig({
   ],
 
   css: [
-    '~/assets/css/fonts.css',
+    '@/assets/css/fonts.css',
   ],
 
   // CSRF Protection Configuration
