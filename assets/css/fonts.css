@@ -1,32 +1,16 @@
 /**
  * KeepStack Font Definitions
  *
- * Place your font files in:
- * - /public/fonts/aeonik/ (Aeonik-Regular.woff2, Aeonik-Medium.woff2, Aeonik-Bold.woff2)
- * - /public/fonts/suisse/ (SuisseIntl-Regular.woff2, SuisseIntl-Medium.woff2)
+ * Current fonts:
+ * - Aeonik Bold (used for all weights for now)
+ * - Suisse Intl Regular & Medium
  */
 
-/* Aeonik - Primary (Headings) */
-@font-face {
-  font-family: 'Aeonik';
-  src: url('/fonts/aeonik/Aeonik-Regular.woff2') format('woff2');
-  font-weight: 400;
-  font-style: normal;
-  font-display: swap;
-}
-
-@font-face {
-  font-family: 'Aeonik';
-  src: url('/fonts/aeonik/Aeonik-Medium.woff2') format('woff2');
-  font-weight: 500;
-  font-style: normal;
-  font-display: swap;
-}
-
+/* Aeonik - Primary (Headings) - Using Bold for all weights */
 @font-face {
   font-family: 'Aeonik';
   src: url('/fonts/aeonik/Aeonik-Bold.woff2') format('woff2');
-  font-weight: 700;
+  font-weight: 400 700;
   font-style: normal;
   font-display: swap;
 }
